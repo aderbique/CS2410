@@ -1,0 +1,45 @@
+.button {
+    -fx-background-color: lightblue;
+    -fx-border-radius: 0;
+    -fx-border-width: 0.5;
+}
+
+.button:hover {
+    -fx-background-color: aqua;
+}
+
+.button:disabled {
+    -fx-background-color: lightgrey;
+    -fx-opacity: 1;
+}
+
+#special-button {
+    -fx-background-color: lightcyan;
+    -fx-border-width: 3;
+}
+
+#special-button:disabled {
+    -fx-background-color: red;
+}
+
+#special-button:pressed {
+    -fx-background-color: orchid;
+}
+
+#isCheck:true {
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-font-size: 50;
+}
+
+#lame-button:hover {
+    -fx-background-color: orange;
+    -fx-cursor: hand;
+}
+
+#buttonWithImage {
+    -fx-background-image: url('controller/bomb.png');
+    -fx-background-size: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 100%;
+    }
